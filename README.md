@@ -43,18 +43,31 @@ This storage class declares register variables with the same functionality as au
 
 ### DATA TYPES: - THEIR SIZES AND RANGE 
 ### Data Type	Size (in bytes)	Range
-#### short int (2 bytes )	(-32,768 to 32,767)
-#### unsigned short int  (2 bytes) 	(0 to 65,535)
-#### unsigned int (4 bytes) 	(0 to 4,294,967,295)
-#### int (4 bytes)	(-2,147,483,648 to 2,147,483,647)
-#### long int (4 bytes)  (-2,147,483,648 to 2,147,483,647)
-#### unsigned long int (4 bytes)  (0 to 4,294,967,295)
-#### long long int (8 bytes) {-(2^63) to (2^63)-1}
-#### unsigned long long int (8 bytes)	(0 to 18,446,744,073,709,551,615)
-#### signed char (1 byte)	(-128 to 127)
-#### unsigned char (1 byte) 	(0 to 255)
-#### float	(4 bytes)	(-3.4×10^38 to 3.4×10^38)
-#### double	(8 bytes) (-1.7×10^308 to1.7×10^308)
-#### long double (12 bytes)	(-1.1×10^4932 to1.1×10^4932)
+#### short int
+(2 bytes )	(-32,768 to 32,767)
+#### unsigned short int 
+(2 bytes) 	(0 to 65,535)
+#### unsigned int
+(4 bytes) 	(0 to 4,294,967,295)
+#### int
+(4 bytes)	(-2,147,483,648 to 2,147,483,647)
+#### long int (4 bytes)
+(-2,147,483,648 to 2,147,483,647)
+#### unsigned long int
+(4 bytes)  (0 to 4,294,967,295)
+#### long long int
+(8 bytes) {-(2^63) to (2^63)-1}
+#### unsigned long long int
+(8 bytes)	(0 to 18,446,744,073,709,551,615)
+#### signed char
+(1 byte)	(-128 to 127)
+#### unsigned char
+(1 byte) 	(0 to 255)
+#### float
+(4 bytes)	(-3.4×10^38 to 3.4×10^38)
+#### double
+(8 bytes) (-1.7×10^308 to1.7×10^308)
+#### long double
+(12 bytes)	(-1.1×10^4932 to1.1×10^4932)
 #### wchar_t (2 or 4 bytes)	(1 to wide character)
 

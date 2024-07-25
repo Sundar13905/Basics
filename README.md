@@ -71,3 +71,5 @@ This storage class declares register variables with the same functionality as au
 (12 bytes)	(-1.1×10^4932 to1.1×10^4932)
 #### wchar_t (2 or 4 bytes)	(1 to wide character)
 
+### OUTPUT OF THE CODE
+![Output of the bitwise operator code](https://github.com/Sundar13905/Basics/blob/main/Output_image_Basics.png)

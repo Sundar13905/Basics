@@ -71,5 +71,83 @@ This storage class declares register variables with the same functionality as au
 (12 bytes)	(-1.1×10^4932 to1.1×10^4932)
 #### wchar_t (2 or 4 bytes)	(1 to wide character)
 
+### DIFFERENT TYPES OF OPERATORS
+There are different types of operations used in C++ to perform different actions.
+An operator is a symbol that operates on a value to perform specific mathematical or logical computations. They form the foundation of any programming language. In C++, we have built-in operators to provide the required functionality.
+An operator operates the operands.
+For example, 
+int c = a + b;
+Here, ‘+’ is the addition operator. ‘a’ and ‘b’ are the operands that are being ‘added’.
+
+
+
+#### Operators in C++ can be classified into 6 types:
+1.	Arithmetic Operators
+2.	Relational Operators
+3.	Logical Operators
+4.	Bitwise Operators
+5.	Assignment Operators
+6.	Ternary or Conditional Operators
+
+
+
+#### 1.	Arithmetic Operations: -
+Arithmetic Operators in C++ are used to perform arithmetic or mathematical operations on the operands. For example, ‘+’ is used for addition, ‘–‘ is used for subtraction,  ‘*’ is used for multiplication, etc. In simple terms, arithmetic operators are used to perform arithmetic operations on variables and data; they follow the same relationship between an operator and an operand.
+
+#### 2.	Comparison Operations: -
+
+There are mainly 6 Comparison Operators namely:
+
+1.	Greater than (>)  :  this operator checks whether operand1 is greater than operand2. If the result turns out to be true, it returns true, or else returns false. example 5>3 ->returns true
+2.	Greater than or equal to (>=)  :  this operator checks whether operand1 is greater than or equal to operand2. If the result turns out to be true, it returns true, or else returns false. example 5>=5 ->returns true
+3.	Less than (<)  :  this operator checks whether operand1 is lesser than operand2. If the result turns out to be true, it returns true, or else returns false. example 3<5 ->returns true
+4.	Less than or equal to (< =)  :  this operator checks whether operand1 is lesser than or equal to operand2. If the result turns out to be true, it returns true or else returns false. example 5<=5 ->returns true
+5.	Equal to (==)  :  this operator checks whether operand1 is equal to operand2. If the result turns out to be true, it returns true or else returns false. example 5==5 ->returns true
+6.	Not Equal to (! =)  :  this operator checks whether operand1 is not equal to operand2. If the result turns out to be true, it returns true or else returns false. example 5!=3 ->returns true
+
+Comparison Operators have only two return values, either true (1) or False (0).
+
+
+#### 3.	Assignment Operators 
+
+Assignment operators are used to assign values to variables.
+For Example: -
+Int x = 10;
+
+Here we have assigned the variable x to the integer value 10.
+
+In C++, the assignment operator forms the backbone of many algorithms and computational processes by performing a simple operation like assigning a value to a variable. It is denoted by equal sign ( = ) and provides one of the most basic operations in any programming language that is used to assign some value to the variables in C++ or in other words, it is used to store some kind of information.
+
+#### 4. Bitwise Operators 
+
+Bitwise Operators are the operators that are used to perform operations on the bit level on the integers. While performing this operation integers are considered as sequences of binary digits. In C++, we have various types of Bitwise Operators.
+
+Bitwise AND (&)
+Bitwise OR (|)
+Bitwise XOR (^)
+Bitwise NOT (~)
+Left Shift (<<)
+Right Shift (>>)
+
+
+#### 1. Bitwise AND (&)
+Bitwise AND operation is performed between two integers, It will compare each bit on the same position and the result bit will be set(1) only and only if both corresponding bits are set(1). The symbol which is used to perform bitwise AND operation is &.
+
+#### 2. Bitwise OR (|)
+If Bitwise OR operation is performed between two integers , It will compare each bit on same position and the result bit will be set(1) if any of corresponding bits are set(1). The symbol which is used to perform bitwise OR operation is |.
+
+#### 3. Bitwise XOR (^)
+If Bitwise XOR operation is performed between two integers , It will compare each bit on same position and the result bit will be set(1) if any of corresponding bits differ i.e. one of them should be 1 and other should be zero. The symbol which is used to perform bitwise XOR operation is ^.
+
+#### 4. Bitwise NOT (~)
+The Bitwise NOT operation is performed on a single number. It change the current bit to it’s complement , i.e. if current bit is 0 then in result it will be 1 and if current bit is 1 then it will become 0. It is denoted by the symbol ~.
+
+#### 5. Left Shift (<<)
+This operator shifts the bits of Integer to left side by specific number (As mentioned) . This left shift operation is equivalent to multiplying the integer by 2 power number of positions shifted. The symbol which is used to represent Left Shift Operator is <<.
+
+#### Right Shift (>>)
+This operator shifts the bits of Integer to right side by specific number (As mentioned) . This right shift operation is equivalent to dividing the integer by 2 power number of positions shifted. The symbol which is used to represent Left Shift Operator is >>.
+
+
 ### OUTPUT OF THE CODE
 ![Output of the bitwise operator code](https://github.com/Sundar13905/Basics/blob/main/Output_image_Basics.png)

@@ -1,5 +1,6 @@
 # BASICS
 
+# EXPERIMENT 2: -
 ## AIM: -
 To learn the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes, the different types of operators like arithmeatic, logical, comparsion and bitwise
 
@@ -71,6 +72,12 @@ This storage class declares register variables with the same functionality as au
 (12 bytes)	(-1.1×10^4932 to1.1×10^4932)
 #### wchar_t (2 or 4 bytes)	(1 to wide character)
 
+
+
+
+
+# EXPERIMENT 3: -
+
 ### DIFFERENT TYPES OF OPERATORS
 There are different types of operations used in C++ to perform different actions.
 An operator is a symbol that operates on a value to perform specific mathematical or logical computations. They form the foundation of any programming language. In C++, we have built-in operators to provide the required functionality.
@@ -117,6 +124,12 @@ Int x = 10;
 Here we have assigned the variable x to the integer value 10.
 
 In C++, the assignment operator forms the backbone of many algorithms and computational processes by performing a simple operation like assigning a value to a variable. It is denoted by equal sign ( = ) and provides one of the most basic operations in any programming language that is used to assign some value to the variables in C++ or in other words, it is used to store some kind of information.
+
+
+
+
+
+# EXPERIMENT 4: -
 
 #### 4. Bitwise Operators 
 

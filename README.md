@@ -105,7 +105,7 @@ Arithmetic Operators in C++ are used to perform arithmetic or mathematical opera
 
 There are mainly 6 Comparison Operators namely:
 
-1.	Greater than (>)  :  this operator checks whether operand1 is greater than operand2. If the result turns out to be true, it returns true, or else returns false. example 5>3 ->returns true
+1.	Greater than (>)  :  this operator checks whether 1 variable is greater than other variable 
 2.	Greater than or equal to (>=)  :  this operator checks whether operand1 is greater than or equal to operand2. If the result turns out to be true, it returns true, or else returns false. example 5>=5 ->returns true
 3.	Less than (<)  :  this operator checks whether operand1 is lesser than operand2. If the result turns out to be true, it returns true, or else returns false. example 3<5 ->returns true
 4.	Less than or equal to (< =)  :  this operator checks whether operand1 is lesser than or equal to operand2. If the result turns out to be true, it returns true or else returns false. example 5<=5 ->returns true
@@ -125,8 +125,8 @@ Here we have assigned the variable x to the integer value 10.
 
 In C++, the assignment operator forms the backbone of many algorithms and computational processes by performing a simple operation like assigning a value to a variable. It is denoted by equal sign ( = ) and provides one of the most basic operations in any programming language that is used to assign some value to the variables in C++ or in other words, it is used to store some kind of information.
 
-
-
+## Output of the code: - 
+![Experiment_3_output](https://github.com/Sundar13905/Basics/blob/main/Experiment_3_output.png)
 
 
 # EXPERIMENT 4: -

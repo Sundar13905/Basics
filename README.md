@@ -1,6 +1,6 @@
 # BASICS
 
-# EXPERIMENT 2: -
+# EXPERIMENT 2 To study and implement C++ Program Structure  (Data types): -
 ## AIM: -
 To learn the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes, the different types of operators like arithmeatic, logical, comparsion and bitwise
 
@@ -72,11 +72,87 @@ This storage class declares register variables with the same functionality as au
 (12 bytes)	(-1.1×10^4932 to1.1×10^4932)
 #### wchar_t (2 or 4 bytes)	(1 to wide character)
 
+## Code for size of datatypes
+
+~~~
+//sundaravadivelan karthikeyan 
+//23070123136
+//ENTC B3
+//Experiment 2 Finding the sizes of primitive datatypes 
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    char a = 's';
+    cout << "The size of a character is: "<< sizeof(a) << endl;
+    int b = 123456;
+    cout << "The size of an integer is: "<< sizeof(b) << endl;
+    short int c = 1233;
+    cout << "The size of a short integer is: "<< sizeof(c) << endl;
+    long int d = 12739482;
+    cout << "The size of a long integer is: "<< sizeof(d) << endl;
+    long long int e = 122388728;
+    cout << "The size of a long long integer is: "<< sizeof(e) << endl;
+    float f = 27168.5;
+    cout << "The sie of a float is: " << sizeof(f) << endl;
+    double g = 84273923.89877;
+    cout <<"The size of a double floating point is: "<< sizeof(g) << endl;
+    long double h = 8742980.789793;
+    cout<< "The size of long double floating point is: "<<sizeof(h) << endl;
+    cout<< "The size of a wide character is: "<<sizeof(wchar_t) << endl;
+    return 0;
+}
+
+
+/*output
+
+The size of a character is: 1
+The size of an integer is: 4
+The size of a short integer is: 2
+The size of a long integer is: 4
+The size of a long long integer is: 8
+The sie of a float is: 4
+The size of a double floating point is: 8
+The size of long double floating point is: 16
+The size of a wide character is: 2
+
+
+*/
+
+
+~~~
+![Experiment_2_output](https://github.com/Sundar13905/Basics/blob/main/Experiment_2%20(1).png)
+## Code for storage classes 
+
+~~~
+#include<iostream>
+using namespace std;
+
+extern int extern_variable =30;
+
+
+int main()
+{
+    auto a = 8;
+    register int registered_variable = 100;
+    static int s = 7;
+    cout << "The local variable: "<< a << std::endl;
+    cout <<"The variable in register: "<<registered_variable<<endl;
+    std::cout<<"External variable: "<<extern_variable<<endl;
+    s = 10;
+    cout<<"The static variable: "<<s<<endl;
+
+}
+
+~~~
+
+
+![Experiment_2_output](https://github.com/Sundar13905/Basics/blob/main/Experiment_2%20(2).png)
 
 
 
-
-# EXPERIMENT 3: -
+# EXPERIMENT 3 To study and implement operators in C++ : -
 
 ### DIFFERENT TYPES OF OPERATORS
 There are different types of operations used in C++ to perform different actions.
@@ -125,11 +201,95 @@ Here we have assigned the variable x to the integer value 10.
 
 In C++, the assignment operator forms the backbone of many algorithms and computational processes by performing a simple operation like assigning a value to a variable. It is denoted by equal sign ( = ) and provides one of the most basic operations in any programming language that is used to assign some value to the variables in C++ or in other words, it is used to store some kind of information.
 
+
+## Code
+
+~~~
+/*Sundaravadivelan Karthikeyan
+23070123136
+ENTC B3 
+EXPERIMENT 3- TYPES OF OPERATORS(ARITHEMATIC, LOGICAL, COMPARSION)
+*/
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    printf("Enter 2 variables: ");
+    scanf("%d %d",&a, &b);
+    int c = a+b;
+    cout << "The addition of 2 numbers "<<c<<endl;
+    int d = a-b;
+    cout << "The subtraction of 2 numbers "<<d<<endl;
+    int e = a*b;
+    cout << "The multiplication of 2 numbers "<<e<<endl;
+    float f = a/b;
+    cout << "The division of 2 numbers "<<f<<endl;
+    if(a==b)
+    {
+        cout << "The numbers are equal" << endl;
+    }
+    else if(a>b)
+    {
+        cout <<"The first number is greater than the second one "<< endl;
+    }
+    else
+    {
+        cout <<"The second number is greater than the first one" << endl;
+    }
+    float g = a%b;
+    cout<< "The reminder of the numbers is: " <<g<<endl;
+    long int k = a*a;
+    cout<<"The square of the first number is: "<<k<<endl;
+    for(int i = 0;i<2;i++)
+    {
+        if(a<b && a!=b)
+        {
+            b =- 10;
+            a =+ 1;
+        }
+        else if(a>b || a==b)
+        {
+            a =-10;
+            b += 1;
+        }
+        cout<<a<<endl;
+        cout<<b<<endl;
+    }
+
+}
+
+/* OUTPUT
+
+
+Enter 2 variables: 15
+19
+The addition of 2 numbers 34
+The subtraction of 2 numbers -4
+The multiplication of 2 numbers 285
+The division of 2 numbers 0
+The second number is greater than the first one
+The reminder of the numbers is: 15
+The square of the first number is: 225
+1
+-10
+-10
+-9
+
+
+*/
+
+~~~
+
+
 ## Output of the code: - 
 ![Experiment_3_output](https://github.com/Sundar13905/Basics/blob/main/Experiment_3_output.png)
 
 
-# EXPERIMENT 4: -
+# EXPERIMENT 4  To study and implement C++ Bitwise Operators: -
 
 #### 4. Bitwise Operators 
 
@@ -161,6 +321,48 @@ This operator shifts the bits of Integer to left side by specific number (As men
 #### Right Shift (>>)
 This operator shifts the bits of Integer to right side by specific number (As mentioned) . This right shift operation is equivalent to dividing the integer by 2 power number of positions shifted. The symbol which is used to represent Left Shift Operator is >>.
 
+## Code
+~~~
+/*Sundaravadivelan karthikeyan 
+23070123136
+EXPREIMENT 4 - BITWISE OPERATORS (AND ,OR, NOT, XOR, LEFT SHIFT, RIGHT SHIFT)
+*/
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a = 16; // 16 in binary is 10000
+    int b = 14; // 14 in binary is 01110
+    int c = a & b;
+    int d = a | b;
+    int e = a ^ b ;
+    int f = ~a;
+    cout << "The bitwise and value of 16 and 14 is: "<< c<< endl;
+    cout << "The bitwise or value of 16 and 14 is: "<< d<< endl;
+    cout << "The bitwsie xor value of 16 and 14 is: "<< e<< endl;
+    cout << "The butwise not value of 16 is: "<< f<< endl;
+    cout << "Left shifted value of a "<< (a<<1)<< endl;
+    cout << "Right shifted value "<< (b>>1)<< endl;
+    return 0;
+
+}
+
+/*
+
+OUTPUT OF THE CODE: -
+
+The bitwise and value of 16 and 14 is: 0
+The bitwise or value of 16 and 14 is: 30
+The bitwsie xor value of 16 and 14 is: 30
+The butwise not value of 16 is: -17
+Left shifted value of a 32
+Right shifted value 7
+
+*/
+~~~
 
 ### OUTPUT OF THE CODE
 ![Output of the bitwise operator code](https://github.com/Sundar13905/Basics/blob/main/Output_image_Basics.png)

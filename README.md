@@ -2,7 +2,7 @@
 
 # EXPERIMENT 2 To study and implement C++ Program Structure  (Data types): -
 ## AIM: -
-To learn the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes, the different types of operators like arithmeatic, logical, comparsion and bitwise
+To learn how to run and implement the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes.
 
 ## Theory: -
 

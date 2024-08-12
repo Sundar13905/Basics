@@ -1,5 +1,146 @@
 # BASICS
 
+#EXPERIMENT 1 Downloading VS code ,(hello world and calculator program)
+# Download VS Code Installer:
+
+### Step 1: -
+Open your web browser and go to the official Visual Studio Code website: code.visualstudio.com. Click on the "Download for Windows" button. This will download the installer executable (.exe file). Run the Installer:
+
+### Step 2: -
+Once the download is complete, open the downloaded file (VSCodeSetup-x.y.z.exe where x.y.z is the version number). If prompted by the User Account Control (UAC) dialog, click "Yes" to allow the installer to make changes to your system.
+
+### Step 3: -
+Accept the License Agreement:
+Read through the license agreement. Check the box that says "I accept the agreement" and click "Next".
+
+### Step 4: -
+Choose Installation Location:
+Choose the destination folder where you want to install VS Code. The default location is usually fine. Click "Next".
+
+### Step 5: -
+Install VS Code:
+Click the "Install" button to start the installation process. The installer will copy the necessary files to your system.
+
+### Step 6: - 
+Launch VS Code:
+Once the installation is complete, you’ll see a final screen with an option to launch Visual Studio Code. Ensure this box is checked and click "Finish".
+
+# EXPERIMENT-1a:
+## Aim:
+Printing “Hello World”
+
+
+Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
+Software: VS Code
+
+~~~
+CODE:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+      cout<<"Hello World";
+      return 0;
+} 
+~~~
+
+# EXPERIMENT 1-b: 
+
+## Aim: - 
+Printing Sum and Average of 2 numbers
+
+Software: VS Code
+
+
+## Theory:
+
+Sum and Average
+
+Basic Arithmetic Operations: Demonstrates how to perform addition and division to calculate the sum and average of numbers.
+Input and Output Handling: Teaches how to take input from the user using namespace std and display results.
+~~~
+CODE:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+      int a,b;
+      cout<<"Enter a and b"<<endl;
+      cin>>a;
+      cin>>b;
+      int sum1 = a+b;
+      cout<<"The sum of a and b is "<<sum1;
+      int avg = (a+b)/2;
+      cout<<endl<<"The average of a and b is: "<<avg;
+      return 0;
+}
+~~~ 
+
+# EXPERIMENT 1-c
+## Aim: -
+Finding whether the number is odd or even
+Software: VS Code
+
+## Theory:
+
+Even or Odd
+
+Conditional Statements: Introduces if-else statements to check whether a number is even or odd.
+Modulus Operator: Uses the modulus operator % to determine the remainder when a number is divided by 2, crucial for the even or odd check.
+CODE:
+~~~
+#include<iostream>
+using namespace std;
+int main()
+{
+      int n;
+      cout<<"Enter n"<<endl;
+      cin>>n;
+
+      if(n%2==0){
+            cout<<endl<<"even";
+      }
+      else{
+            cout<<endl<<"odd";
+      }     
+      return 0;
+}
+~~~
+
+
+# EXPERIMENT 1-d
+## Aim: -
+Determining leap years
+Software: VS Code
+
+## Theory:-
+ A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
+
+The leap year calculation can be summarized as follows:
+
+A year is a leap year if it is evenly divisible by 4. However, if the year is also evenly divisible by 100, it is not a leap year, unless: The year is also evenly divisible by 400, in which case it is a leap year.
+
+~~~
+CODE:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+      int year;
+      cout<<endl<<"Enter the year";
+      cin>>year;
+      if(year%400==0 and year%100!=0 or year%4==0){
+            cout<<"LEAP year";
+      }
+      else{
+            cout<<"Non leap year";
+      }
+      return 0;
+}
+~~~
 # EXPERIMENT 2 To study and implement C++ Program Structure  (Data types): -
 ## AIM: -
 To learn how to run and implement the basic fundatamentals of C++ for example the varibales and their sizes, the different type of storage classes.
